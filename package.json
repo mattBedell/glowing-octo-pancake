@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/slythindor/glowing-octo-pancake#readme",
   "dependencies": {
+    "d3": "^4.4.0",
     "dotenv": "^2.0.0",
     "express": "^4.14.0",
     "morgan": "^1.7.0",
