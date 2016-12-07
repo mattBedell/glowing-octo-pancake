@@ -23,13 +23,13 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'ReactJS Hello World',
+      title: 'WalData',
       xhtml: true,
       inject: false,
       template: require('html-webpack-template'),
       appMountId: 'root-container'
     }),
-    new ExtractTextPlugin('/css/[name].css', {
+    new ExtractTextPlugin('[name].css', {
       allChunks: true
     })
   ],
@@ -39,7 +39,7 @@ module.exports = {
     loaders: [
       {
         test: /\.css$/,
-        loader: ExtractTextPlugin.extract('style-loader', 'css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]')
+        loader: ExtractTextPlugin.extract('style-loader', 'css-loader')
       },
       {
         test: /\.svg$/,

@@ -13,10 +13,7 @@ class App extends Component {
           <h1>Welcome to PERN Template</h1>
         </header>
         <div id={style['description-body']}>
-          <p>
-            Welcome to PERN Template. This is a temporary Hello World component 
-            that may be replaced with the rest of your React client application
-          </p>
+        
         </div>
       </div>
     );
