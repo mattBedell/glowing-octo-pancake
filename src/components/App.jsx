@@ -6,7 +6,19 @@ import Chart from 'd3';
 
 // create a React Component called _App_
 class App extends Component {
+constructor() {
+    super();
 
+    this.state = {
+      holiday: true,
+      storeType: "",
+      weeklySales: "",
+      temp: "",
+      data: []
+    }//state end
+
+
+  }//constructor end
   render(){
     return (
       <div id="app-container">
@@ -16,7 +28,7 @@ class App extends Component {
         <div className="body" id={style['description-body']}>
         <div>
           <section><img className="walmartLogo" src='http://i.imgur.com/HEvo6A0.png' alt="walmart logo"/> </section>
-          <section><input className="searchDataInput"type="text" placeholder="Search Data Results"/><button className="buttonSearch">Go!</button></section>
+          {/*<section><input className="searchDataInput"type="text" placeholder="Search Data Results"/><button className="buttonSearch">Go!</button></section>*/}
           <section>
             Is It A Holiday?
             <select>
@@ -34,7 +46,6 @@ class App extends Component {
             </select>
           </section>
 
-
            <section>
             Weekly Sales:
             <input type="text" placeholder="$ Total Weekly Sales"/>
@@ -44,7 +55,6 @@ class App extends Component {
             Temp:
             <input className=""type="text" placeholder="0&deg;"/>
           </section>
-
 
         </div>
         </div>

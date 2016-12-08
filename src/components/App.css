@@ -1,5 +1,5 @@
 header {
-  background-color: #ffc220;
+  background-color: #ffc210;
   padding: 20px;
   box-shadow: -2px 13px 30px -7px rgba(0,0,0,0.75);
 }
@@ -19,7 +19,7 @@ header h1 {
   margin: auto;
   width: 30%;
   padding: 10px;
-  padding-top: 150px;
+  padding-top: 50px;
 
 }
 
