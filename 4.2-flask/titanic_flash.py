@@ -9,7 +9,7 @@ import numpy as np
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 
-df = pd.read_csv('/Users/macbook/GA-DSI/curriculum/week-09/4.2-flask/assets/datasets/titanic.csv')
+df = pd.read_csv('./assets/datasets/titanic.csv')
 include = ['Pclass', 'Sex', 'Age', 'Fare', 'SibSp', 'Survived']
 
 df['Sex'] = df['Sex'].apply(lambda x: 0 if x == 'male' else 1)
