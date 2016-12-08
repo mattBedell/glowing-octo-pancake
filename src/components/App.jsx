@@ -17,10 +17,39 @@ class App extends Component {
         <div>
           <section><img className="walmartLogo" src='http://i.imgur.com/HEvo6A0.png' alt="walmart logo"/> </section>
           <section><input className="searchDataInput"type="text" placeholder="Search Data Results"/><button className="buttonSearch">Go!</button></section>
-        </div>
+          <section>
+            Is It A Holiday?
+            <select>
+              <option value="true">Yes</option>
+              <option value="false">No</option>
+            </select>
+          </section>
+
+          <section>
+            Store Type?
+            <select>
+              <option value="A">Type A</option>
+              <option value="B">Type B</option>
+              <option value="C">Type C</option>
+            </select>
+          </section>
+
+
+           <section>
+            Weekly Sales:
+            <input type="text" placeholder="$ Total Weekly Sales"/>
+          </section>
+
+          <section>
+            Temp:
+            <input className=""type="text" placeholder="0&deg;"/>
+          </section>
+
 
         </div>
+        </div>
       </div>
+
     );
   }
 }

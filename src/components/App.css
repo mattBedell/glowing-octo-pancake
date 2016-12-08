@@ -44,5 +44,10 @@ header h1 {
   transition: color .8s;
 }
 
-.wallmartLogo{
+section{
+  padding: 20px;
+}
+
+input{
+  margin-left: 20px;
 }
