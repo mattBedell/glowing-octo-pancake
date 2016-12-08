@@ -1,14 +1,53 @@
 header {
-  background-color: #393939;
+  background-color: #ffc210;
   padding: 20px;
+  box-shadow: -2px 13px 30px -7px rgba(0,0,0,0.75);
 }
 
 header h1 {
-  color: #FAFAFA;
+  color: #004c91;
   margin: 0;
   font-family: sans-serif;
+  margin: 10px;
 }
 
 #description-body {
+  padding: 50px;
+
+}
+.body{
+  margin: auto;
+  width: 30%;
+  padding: 10px;
+  padding-top: 50px;
+
+}
+
+.searchDataInput{
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.buttonSearch{
+  border-radius: 15px;
+  padding: 10px;
+  margin-left: 20px;
+  background-color: #78b9e7;
+  outline: none;
+  border: none;
+}
+
+.buttonSearch:hover{
+  background-color: #62aee3;
+  transition: color .8s;
+}
+
+section{
   padding: 20px;
+}
+
+input{
+  margin-left: 20px;
 }
