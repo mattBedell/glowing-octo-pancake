@@ -5,7 +5,7 @@ const logger  = require('morgan');
 const path    = require('path');
 
 const app     = express();
-const PORT    = process.argv[2] || process.env.port || 3000;
+const PORT    = process.argv[2] || process.env.port || 5000;
 
 app.use('/api/walData', require('./routes/walData.js'))
 app.use(logger('dev'));
